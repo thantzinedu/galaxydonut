@@ -1,0 +1,265 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #3c096c;
+}
+header {
+    background-color: #7B1E83;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+.section{
+    background-color: #3c096c;
+}
+nav {
+    background-color: #3B247E;
+    color: white;
+    padding: 10px 0;
+    text-align: left;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+nav a:hover{
+    text-decoration:underline;
+
+}
+.welcome {
+    text-align: center;
+    padding: 50px 20px;
+    background-image: url('Image/images/backgroundblur1.jfif');
+    background-color: rgb(207, 207, 207);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+.welcome h1{
+    font-size: 50px;
+}
+.welcome p{
+    font-size: 20px;
+}
+.product_left {
+    width: 100%;
+    height: 200px;
+    display: flex;
+}
+.product_text1 {
+    width: 115%;
+    background-color: #cb5df1;
+    padding: 20px;
+    height: 90%;
+    color: white;
+}
+.product_img1 {
+    width: 40%;
+
+    float: left;
+
+}
+.product_img1 img {
+
+    height: 220px;
+    width: 100%;
+
+}
+.product_right {
+    width: 100%;
+    height: 200px;
+    display: flex;
+}
+.product_text2 {
+    width: 115%;
+    background-color: #cb5df1;
+    padding: 20px;
+    height: 90%;
+    float: left;
+    color: white;
+}
+.product_img2 {
+    width: 40%;
+
+
+}
+.product_img2 img {
+    width: 100%;
+    height: 220px;
+}
+.sectioncolumn {
+    margin: 10px;
+    padding: 20px;
+}
+.img{
+    width: 260px;
+}
+button{
+    border-radius: 4px;
+}
+.ordernow {
+    background: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.ordernow:hover {
+    background-color: #a2d2ff;
+}
+.contact-section{
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+.contact-section h2{
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.contact-section p{
+    font-size: 18px;
+    margin: 10px 0;
+}
+.contact-section a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+footer{
+    text-align: center;
+    background-color: #5390D9;
+    color: white;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+.about-section{
+    text-align: center;
+    padding: 50px 20px;
+    max-width: 800px;
+    margin: 50px auto;
+    border-radius: 10px;
+}
+.about-section h2{
+    font-size: 36px;
+    color: white;
+    margin-bottom: 20px;
+}
+.about-section .h31{
+    font-size: 18px;
+    color:white;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-left: 5px;
+}
+.about-section .h32 {
+    font-size: 18px;
+    color:white;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-left: 5px;
+}
+.about-section .h33 {
+    font-size: 18px;
+    color:white;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-left: 5px;
+}
+.about-section .h34 {
+    font-size: 18px;
+    color:white;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-left: 5px;
+}
+.about-section p {
+    font-size: 19px;
+    line-height: 1.8;
+    color: white;
+    padding: 15px;
+
+}
+.price{
+    color: #ff6347;
+    font-size: 18px;
+    font-weight: bold;
+}
+.product{
+    background-color: white;
+    border: 2px solid #D2B48C;
+    border-radius: 8px;
+    padding: 5px;
+    text-align: center;
+    width: 30%;
+    height: 650px;
+    float: left;
+    margin: 10px;
+    font-weight: bold;
+    /* font-size: 14px; */
+}
+.product h3{
+    font-size: 20px;
+}
+.products{
+    width: 100%;
+    padding: 20px;
+    overflow: auto;
+}
+.product img{
+    width: 100%;
+    height: 60%;
+    border-radius: 10px 10px 0 0;
+}
+.order-section{
+    text-align: center;
+    padding: 50px 20px;
+    max-width: 800px;
+    margin: 50px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0,0.1);
+    color: white;
+    background-color: #7929c4;
+}
+.order-section h2{
+    font-size: 36px;
+    color:white;
+    margin-bottom: 20px;
+}
+.about-section p {
+    font-size: 19px;
+    line-height: 1.8;
+    color: white;
+    padding: 15px;
+
+}
+.button{
+    border-radius: 90px;
+}
+.img1 {
+    height: 300px;
+    width: 400px;
+    float: middle;
+}
+.img2 {
+    height: 300px;
+    width: 400px;
+    float: middle;
+}
+.img3 {
+    height: 300px;
+    width: 400px;
+    float: middle;
+}
+.img4 {
+    height: 300px;
+    width: 400px;
+    float: middle;
+}
+
+
